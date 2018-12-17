@@ -20,16 +20,16 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  background-size: cover;
+  /* background-color: #343a40; */
+  background: url("../img/banner-3.png") no-repeat center center;
+  background-size: 100% 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  /* background-color: #212529; */
   height: 100%;
   width: 100%;
   top: 0;
@@ -124,4 +124,18 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.header-blue {
+  color:#144ac5 !important;
+}
+
+.header-blue-bg {
+  background-color:#144ac5 !important;
+  z-index: 10;
+}
+
+.container{
+  max-width:1200px !important;
+
 }
